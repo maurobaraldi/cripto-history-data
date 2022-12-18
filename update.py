@@ -18,9 +18,15 @@ with open('./binance.json') as _:
 for asset in binance:
     print(asset)
     since = datetime.strptime(binance.get(asset).get('since'), '%Y/%m/%d').date()
-    items = binance.get(asset).get('items')
-    for item in items:
-        download_and_extract(asset, item, since.day, since.month, since.year)
+    intervals = binance.get(asset).get('intervals')
+    print(intervals)
+    for interval in intervals:
+        print(interval)
+        while since != datetime.now().date():
+            day, month, year = since.day, since.month, since.year
+            download_and_extract(asset, interval, day, month, year)
+            since = timedelta(days=1) + since
+        since = datetime.strptime(binance.get(asset).get('since'), '%Y/%m/%d').date()
 
 # Update Binance - Finish
 
@@ -30,4 +36,4 @@ for f in diff.split('\n'):
         print(f'Update {Path(f).name} from {Path(f).parent.name}')
         repo.index.commit(f'Update {Path(f).name} from {Path(f).parent.name.upper()}')
 
-repo.remotes.origin.push()
+#repo.remotes.origin.push()
