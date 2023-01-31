@@ -30,5 +30,13 @@
     "XRPUSDT": {
         "since": "2022/10/01",
         "intervals": ["4h", "8h", "12h", "1d"]
+    },
+    "ETHUSDT": {
+        "since": "2022/10/01",
+        "intervals": ["4h", "8h", "12h", "1d"]
+    },
+    "MATICUSDT": {
+        "since": "2022/10/01",
+        "intervals": ["4h", "8h", "12h", "1d"]
     }
 }

@@ -1,3 +1,10 @@
+#!/usr/bin/env python3
+
+#
+# Inspired in https://www.youtube.com/watch?v=33qz3LIdwKo
+# Thank you Code Trading Cafe
+#
+
 from datetime import datetime
 
 import numpy as np
@@ -134,8 +141,21 @@ def plot_interval(dataframe: DataFrame, start: int, end: int) -> None:
     )
     fig.show()
 
+def get_moments(dataframe: DataFrame, behaviour: int) -> None:
+    '''
+    Return a list of ids in dataframe to choice and plot.
+    behaviour 1 - bullish, 2 - bearish
+    '''
+
+    b = {1: 'bullish', 2: 'bearish'}
+
+    ids = list(dataframe[dataframe['result'] == behaviour].index)
+    print(f'Dataframes that behave as {b[behaviour]}: {ids}')
+    momment = int(input('Choice a momment:'))
+    plot_interval(dataframe, momment - 15, momment + 15)
+
 # Add a signal column with the signal analysed (bear, bull or none)
-data = load_data_frame('/Users/mauro.baraldi/Documents/Projects/cripto-history-data/data/binance/LTCBRL-4h.csv')
+data = load_data_frame('../../data/binance/LTCBRL-4h.csv')
 data['signal1'] = reverse_signal_finder(data, 0.003, 5e-5)
 #data[data['signal1'] == 1].count() # debug
 
@@ -148,7 +168,5 @@ conditions = [(data['trend'] == 1) & (data['signal1'] == 1),(data['trend'] == 2)
 values = [1, 2]
 data['result'] = np.select(conditions, values)
 
-bearish_analyses = calculate_precision(data, 1)
-bulliish_analyses = calculate_precision(data, 2)
-print(f'Bearish precision: {bearish_analyses["precision"]}')
-print(f'Bullish precision: {bulliish_analyses["precision"]}')
+print(f'Bearish precision: {calculate_precision(data, 1)["precision"]}')
+print(f'Bullish precision: {calculate_precision(data, 2)["precision"]}')
