@@ -1,0 +1,11 @@
+version: "3.9"
+
+services:
+  worker:
+    image: 192.168.1.97:5000/stackdemo
+    build: .
+    container_name: worker
+
+  redis:
+    image: redis:alpine
+    container_name: redis

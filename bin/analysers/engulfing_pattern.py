@@ -16,6 +16,8 @@ try:
 except ImportError:
     import pip
     pip.main(['install', 'plotly'])
+    from plotly import graph_objects as go
+    from plotly import io as pio
 
 # Shows blank figure in Jupyter notebooks.
 pio.renderers.default = "iframe"

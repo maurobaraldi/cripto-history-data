@@ -1,0 +1,8 @@
+# binance scraper por arquivo (binance_scraping_v3.py)
+- definir o numero de threads automaticamente (https://stackoverflow.com/a/55423170/841339) - Abandonado (usando celery)
+- buscar lista de ativos a partir de config file (json ou yaml)
+- buscar lista de intervalos a partir de config file (json ou yaml)
+- Adicionar metodo para adicionar os arquivos no banco (SQLite) - Abandonado (usando pgsql)
+- Adicionar logs (erro, totalizador de sucesso.) - Ok
+- Log dos ultimos registros com sucesso e usar como referencia para os proximos scraping - Ok
+- Scrapping para Mercado Bitcoin
