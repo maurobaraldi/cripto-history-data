@@ -1,0 +1,413 @@
+{
+    "autorun": false,
+    "assets": [
+        {
+            "pair": "1INCHBUSD",
+            "interval": "1h"
+        },
+        {
+            "pair": "1INCHBUSD",
+            "interval": "2h"
+        },
+        {
+            "pair": "1INCHBUSD",
+            "interval": "4h"
+        },
+        {
+            "pair": "1INCHBUSD",
+            "interval": "6h"
+        },
+        {
+            "pair": "1INCHBUSD",
+            "interval": "8h"
+        },
+        {
+            "pair": "1INCHBUSD",
+            "interval": "12h"
+        },
+        {
+            "pair": "GMXUSDT",
+            "interval": "1h"
+        },
+        {
+            "pair": "GMXUSDT",
+            "interval": "2h"
+        },
+        {
+            "pair": "GMXUSDT",
+            "interval": "4h"
+        },
+        {
+            "pair": "GMXUSDT",
+            "interval": "6h"
+        },
+        {
+            "pair": "GMXUSDT",
+            "interval": "8h"
+        },
+        {
+            "pair": "GMXUSDT",
+            "interval": "12h"
+        },
+        {
+            "pair": "LINKUSDC",
+            "interval": "1h"
+        },
+        {
+            "pair": "LINKUSDC",
+            "interval": "2h"
+        },
+        {
+            "pair": "LINKUSDC",
+            "interval": "4h"
+        },
+        {
+            "pair": "LINKUSDC",
+            "interval": "6h"
+        },
+        {
+            "pair": "LINKUSDC",
+            "interval": "8h"
+        },
+        {
+            "pair": "LINKUSDC",
+            "interval": "12h"
+        },
+        {
+            "pair": "LINKUSDT",
+            "interval": "1h"
+        },
+        {
+            "pair": "LINKUSDT",
+            "interval": "2h"
+        },
+        {
+            "pair": "LINKUSDT",
+            "interval": "4h"
+        },
+        {
+            "pair": "LINKUSDT",
+            "interval": "6h"
+        },
+        {
+            "pair": "LINKUSDT",
+            "interval": "8h"
+        },
+        {
+            "pair": "LINKUSDT",
+            "interval": "12h"
+        },        
+        {
+            "pair": "AGIXUSDC",
+            "interval": "1h"
+        },
+        {
+            "pair": "AGIXUSDC",
+            "interval": "2h"
+        },
+        {
+            "pair": "AGIXUSDC",
+            "interval": "4h"
+        },
+        {
+            "pair": "AGIXUSDC",
+            "interval": "6h"
+        },
+        {
+            "pair": "AGIXUSDC",
+            "interval": "8h"
+        },
+        {
+            "pair": "AGIXUSDC",
+            "interval": "12h"
+        },        
+        {
+            "pair": "ETHUSDC",
+            "interval": "1h"
+        },
+        {
+            "pair": "ETHUSDC",
+            "interval": "2h"
+        },
+        {
+            "pair": "ETHUSDC",
+            "interval": "4h"
+        },
+        {
+            "pair": "ETHUSDC",
+            "interval": "6h"
+        },
+        {
+            "pair": "ETHUSDC",
+            "interval": "8h"
+        },
+        {
+            "pair": "ETHUSDC",
+            "interval": "12h"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "1h"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "2h"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "4h"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "6h"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "8h"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "12h"
+        },
+        {
+            "pair": "BTCUSDC",
+            "interval": "1h"
+        },
+        {
+            "pair": "BTCUSDC",
+            "interval": "2h"
+        },
+        {
+            "pair": "BTCUSDC",
+            "interval": "4h"
+        },
+        {
+            "pair": "BTCUSDC",
+            "interval": "6h"
+        },
+        {
+            "pair": "BTCUSDC",
+            "interval": "8h"
+        },
+        {
+            "pair": "BTCUSDC",
+            "interval": "12h"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "1h"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "2h"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "4h"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "6h"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "8h"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "12h"
+        },
+        {
+            "pair": "COTIUSDC",
+            "interval": "1h"
+        },
+        {
+            "pair": "COTIUSDC",
+            "interval": "2h"
+        },
+        {
+            "pair": "COTIUSDC",
+            "interval": "4h"
+        },
+        {
+            "pair": "COTIUSDC",
+            "interval": "6h"
+        },
+        {
+            "pair": "COTIUSDC",
+            "interval": "8h"
+        },
+        {
+            "pair": "COTIUSDC",
+            "interval": "12h"
+        },
+        {
+            "pair": "COTIUSDT",
+            "interval": "1h"
+        },
+        {
+            "pair": "COTIUSDT",
+            "interval": "2h"
+        },
+        {
+            "pair": "COTIUSDT",
+            "interval": "4h"
+        },
+        {
+            "pair": "COTIUSDT",
+            "interval": "6h"
+        },
+        {
+            "pair": "COTIUSDT",
+            "interval": "8h"
+        },
+        {
+            "pair": "COTIUSDT",
+            "interval": "12h"
+        },
+        {
+            "pair": "BTCBRL",
+            "interval": "1h"
+        },
+        {
+            "pair": "BTCBRL",
+            "interval": "2h"
+        },
+        {
+            "pair": "BTCBRL",
+            "interval": "4h"
+        },
+        {
+            "pair": "BTCBRL",
+            "interval": "6h"
+        },
+        {
+            "pair": "BTCBRL",
+            "interval": "8h"
+        },
+        {
+            "pair": "BTCBRL",
+            "interval": "12h"
+        },
+        {
+            "pair": "XRPBRL",
+            "interval": "1h"
+        },
+        {
+            "pair": "XRPBRL",
+            "interval": "2h"
+        },
+        {
+            "pair": "XRPBRL",
+            "interval": "4h"
+        },
+        {
+            "pair": "XRPBRL",
+            "interval": "6h"
+        },
+        {
+            "pair": "XRPBRL",
+            "interval": "8h"
+        },
+        {
+            "pair": "XRPBRL",
+            "interval": "12h"
+        },
+        {
+            "pair": "XRPUSDC",
+            "interval": "1h"
+        },
+        {
+            "pair": "XRPUSDC",
+            "interval": "2h"
+        },
+        {
+            "pair": "XRPUSDC",
+            "interval": "4h"
+        },
+        {
+            "pair": "XRPUSDC",
+            "interval": "6h"
+        },
+        {
+            "pair": "XRPUSDC",
+            "interval": "8h"
+        },
+        {
+            "pair": "XRPUSDC",
+            "interval": "12h"
+        },
+        {
+            "pair": "LTCUSDC",
+            "interval": "1h"
+        },
+        {
+            "pair": "LTCUSDC",
+            "interval": "2h"
+        },
+        {
+            "pair": "LTCUSDC",
+            "interval": "4h"
+        },
+        {
+            "pair": "LTCUSDC",
+            "interval": "6h"
+        },
+        {
+            "pair": "LTCUSDC",
+            "interval": "8h"
+        },
+        {
+            "pair": "LTCUSDC",
+            "interval": "12h"
+        },
+        {
+            "pair": "LTCBRL",
+            "interval": "1h"
+        },
+        {
+            "pair": "LTCBRL",
+            "interval": "2h"
+        },
+        {
+            "pair": "LTCBRL",
+            "interval": "4h"
+        },
+        {
+            "pair": "LTCBRL",
+            "interval": "6h"
+        },
+        {
+            "pair": "LTCBRL",
+            "interval": "8h"
+        },
+        {
+            "pair": "LTCBRL",
+            "interval": "12h"
+        },
+        {
+            "pair": "ETHBRL",
+            "interval": "1h"
+        },
+        {
+            "pair": "ETHBRL",
+            "interval": "2h"
+        },
+        {
+            "pair": "ETHBRL",
+            "interval": "4h"
+        },
+        {
+            "pair": "ETHBRL",
+            "interval": "6h"
+        },
+        {
+            "pair": "ETHBRL",
+            "interval": "8h"
+        },
+        {
+            "pair": "ETHBRL",
+            "interval": "12h"
+        }
+    ]
+}

@@ -1,0 +1,265 @@
+{
+    "autorun": false,
+    "assets": [
+        {
+            "pair": "1INCHUSD",
+            "interval": "1h"
+        },
+        {
+            "pair": "1INCHUSD",
+            "interval": "4h"
+        },
+        {
+            "pair": "1INCHUSD",
+            "interval": "1d"
+        },
+        {
+            "pair": "1INCHUSD",
+            "interval": "1w"
+        },
+        {
+            "pair": "1INCHUSD",
+            "interval": "15d"
+        },
+        {
+            "pair": "1INCHEUR",
+            "interval": "1h"
+        },
+        {
+            "pair": "1INCHEUR",
+            "interval": "4h"
+        },
+        {
+            "pair": "1INCHEUR",
+            "interval": "1d"
+        },
+        {
+            "pair": "1INCHEUR",
+            "interval": "1w"
+        },
+        {
+            "pair": "1INCHEUR",
+            "interval": "15d"
+        },
+        {
+            "pair": "LINKUSD",
+            "interval": "1h"
+        },
+        {
+            "pair": "LINKUSD",
+            "interval": "4h"
+        },
+        {
+            "pair": "LINKUSD",
+            "interval": "1d"
+        },
+        {
+            "pair": "LINKUSD",
+            "interval": "1w"
+        },
+        {
+            "pair": "LINKUSD",
+            "interval": "15d"
+        },
+        {
+            "pair": "LINKEUR",
+            "interval": "1h"
+        },
+        {
+            "pair": "LINKEUR",
+            "interval": "4h"
+        },
+        {
+            "pair": "LINKEUR",
+            "interval": "1d"
+        },
+        {
+            "pair": "LINKEUR",
+            "interval": "1w"
+        },
+        {
+            "pair": "LINKEUR",
+            "interval": "15d"
+        },
+        {
+            "pair": "LINKBTC",
+            "interval": "1h"
+        },
+        {
+            "pair": "LINKBTC",
+            "interval": "4h"
+        },
+        {
+            "pair": "LINKBTC",
+            "interval": "1d"
+        },
+        {
+            "pair": "LINKBTC",
+            "interval": "1w"
+        },
+        {
+            "pair": "LINKBTC",
+            "interval": "15d"
+        },
+        {
+            "pair": "LINKETH",
+            "interval": "1h"
+        },
+        {
+            "pair": "LINKETH",
+            "interval": "4h"
+        },
+        {
+            "pair": "LINKETH",
+            "interval": "1d"
+        },
+        {
+            "pair": "LINKETH",
+            "interval": "1w"
+        },
+        {
+            "pair": "LINKETH",
+            "interval": "15d"
+        },
+        {
+            "pair": "COTIUSD",
+            "interval": "1h"
+        },
+        {
+            "pair": "COTIUSD",
+            "interval": "4h"
+        },
+        {
+            "pair": "COTIUSD",
+            "interval": "1d"
+        },
+        {
+            "pair": "COTIUSD",
+            "interval": "1w"
+        },
+        {
+            "pair": "COTIUSD",
+            "interval": "15d"
+        },
+        {
+            "pair": "COTIEUR",
+            "interval": "1h"
+        },
+        {
+            "pair": "COTIEUR",
+            "interval": "4h"
+        },
+        {
+            "pair": "COTIEUR",
+            "interval": "1d"
+        },
+        {
+            "pair": "COTIEUR",
+            "interval": "1w"
+        },
+        {
+            "pair": "COTIEUR",
+            "interval": "15d"
+        },
+        {
+            "pair": "LTCUSD",
+            "interval": "1h"
+        },
+        {
+            "pair": "LTCUSD",
+            "interval": "4h"
+        },
+        {
+            "pair": "LTCUSD",
+            "interval": "1d"
+        },
+        {
+            "pair": "LTCUSD",
+            "interval": "1w"
+        },
+        {
+            "pair": "LTCUSD",
+            "interval": "15d"
+        },
+        {
+            "pair": "LTCEUR",
+            "interval": "1h"
+        },
+        {
+            "pair": "LTCEUR",
+            "interval": "4h"
+        },
+        {
+            "pair": "LTCEUR",
+            "interval": "1d"
+        },
+        {
+            "pair": "LTCEUR",
+            "interval": "1w"
+        },
+        {
+            "pair": "LTCEUR",
+            "interval": "15d"
+        },
+        {
+            "pair": "LTCBTC",
+            "interval": "1h"
+        },
+        {
+            "pair": "LTCBTC",
+            "interval": "4h"
+        },
+        {
+            "pair": "LTCBTC",
+            "interval": "1d"
+        },
+        {
+            "pair": "LTCBTC",
+            "interval": "1w"
+        },
+        {
+            "pair": "LTCBTC",
+            "interval": "15d"
+        },
+        {
+            "pair": "LTCETH",
+            "interval": "1h"
+        },
+        {
+            "pair": "LTCETH",
+            "interval": "4h"
+        },
+        {
+            "pair": "LTCETH",
+            "interval": "1d"
+        },
+        {
+            "pair": "LTCETH",
+            "interval": "1w"
+        },
+        {
+            "pair": "LTCETH",
+            "interval": "15d"
+        },
+        {
+            "pair": "XRPUSD",
+            "interval": "1h"
+        },
+        {
+            "pair": "XRPUSD",
+            "interval": "4h"
+        },
+        {
+            "pair": "XRPUSD",
+            "interval": "1d"
+        },
+        {
+            "pair": "XRPUSD",
+            "interval": "1w"
+        },
+        {
+            "pair": "XRPUSD",
+            "interval": "15d"
+        }
+   ]
+}

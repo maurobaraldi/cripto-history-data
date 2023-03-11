@@ -6,3 +6,26 @@
 - Adicionar logs (erro, totalizador de sucesso.) - Ok
 - Log dos ultimos registros com sucesso e usar como referencia para os proximos scraping - Ok
 - Scrapping para Mercado Bitcoin
+- Analises: https://www.udemy.com/course/algorithmic-trading-quantitative-analysis-using-python/
+
+# Refactoring
+
+- Criar um metodo para conectar ao DB.
+- Criar campo de exchange na tabela OHLCV.
+- Testes
+- Type hinting
+
+# ToDo - Gemini
+- Periodic Tasks (Celery)
+
+# ToDo Kraken
+- Docs: https://docs.kraken.com/rest/#tag/Market-Data/operation/getOHLCData
+
+# ToDo Bitstamp
+- Docs: https://www.bitstamp.net/api/#ohlc_data
+
+# ToDo CEX.io
+- Docs: https://docs.cex.io/#historical-ohlcv-chart
+
+# ToDo Bitfinex
+- Docs: https://docs.bitfinex.com/reference/rest-public-candles

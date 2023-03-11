@@ -1,7 +1,0 @@
-{
-    "logging": {
-        "level": "INFO",
-        "format": "{name} - {levelname} - {message}",
-        "path": "/var/log/{name}.log"
-    }
-}

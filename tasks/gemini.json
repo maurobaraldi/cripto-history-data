@@ -1,0 +1,149 @@
+{
+    "autorun": false,
+    "assets": [
+        {
+            "pair": "BTCEUR",
+            "interval": "1hr"
+        },
+        {
+            "pair": "BTCEUR",
+            "interval": "6hr"
+        },
+        {
+            "pair": "BTCEUR",
+            "interval": "1day"
+        },
+        {
+            "pair": "BTCUSD",
+            "interval": "1hr"
+        },
+        {
+            "pair": "BTCUSD",
+            "interval": "6hr"
+        },
+        {
+            "pair": "BTCUSD",
+            "interval": "1day"
+        },
+        {
+            "pair": "LINKUSD",
+            "interval": "1hr"
+        },
+        {
+            "pair": "LINKUSD",
+            "interval": "6hr"
+        },
+        {
+            "pair": "LINKUSD",
+            "interval": "1day"
+        },
+        {
+            "pair": "LINKBTC",
+            "interval": "1hr"
+        },
+        {
+            "pair": "LINKBTC",
+            "interval": "6hr"
+        },
+        {
+            "pair": "LINKBTC",
+            "interval": "1day"
+        },
+        {
+            "pair": "LINKETH",
+            "interval": "1hr"
+        },
+        {
+            "pair": "LINKETH",
+            "interval": "6hr"
+        },
+        {
+            "pair": "LINKETH",
+            "interval": "1day"
+        },
+        {
+            "pair": "ETHUSD",
+            "interval": "1hr"
+        },
+        {
+            "pair": "ETHUSD",
+            "interval": "6hr"
+        },
+        {
+            "pair": "ETHUSD",
+            "interval": "1day"
+        },
+        {
+            "pair": "ETHBTC",
+            "interval": "1hr"
+        },
+        {
+            "pair": "ETHBTC",
+            "interval": "6hr"
+        },
+        {
+            "pair": "ETHBTC",
+            "interval": "1day"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "1hr"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "6hr"
+        },
+        {
+            "pair": "ETHUSDT",
+            "interval": "1day"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "1hr"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "6hr"
+        },
+        {
+            "pair": "BTCUSDT",
+            "interval": "1day"
+        },
+        {
+            "pair": "LTCUSD",
+            "interval": "1hr"
+        },
+        {
+            "pair": "LTCUSD",
+            "interval": "6hr"
+        },
+        {
+            "pair": "LTCUSD",
+            "interval": "1day"
+        },
+        {
+            "pair": "LTCETH",
+            "interval": "1hr"
+        },
+        {
+            "pair": "LTCETH",
+            "interval": "6hr"
+        },
+        {
+            "pair": "LTCETH",
+            "interval": "1day"
+        },
+        {
+            "pair": "LTCBTC",
+            "interval": "1hr"
+        },
+        {
+            "pair": "LTCBTC",
+            "interval": "6hr"
+        },
+        {
+            "pair": "LTCBTC",
+            "interval": "1day"
+        }
+    ]
+}

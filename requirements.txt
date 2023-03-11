@@ -1,2 +1,7 @@
-flask
-redis
+celery==5.2.7
+jupyter==1.0.0
+lxml==4.9.2
+matplotlib=3.7.0
+pandas==1.5.2
+plotly==5.11.0
+psycopg2-binary==2.9.5

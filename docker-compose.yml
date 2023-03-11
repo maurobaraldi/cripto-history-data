@@ -2,9 +2,12 @@ version: "3.9"
 
 services:
   worker:
-    image: 192.168.1.97:5000/stackdemo
+    #image: 192.168.1.97:5000/worker
+    image: worker
     build: .
     container_name: worker
+    volumes:
+      - ./analysis:/tmp/images
 
   redis:
     image: redis:alpine
