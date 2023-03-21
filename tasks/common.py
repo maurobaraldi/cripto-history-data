@@ -70,30 +70,42 @@ def initdb(*args, **kwargs):
         logging.info('Database initialization finished successfully.')
 
 
-def  get_pie(pair, interval, exchange, *arg, **kwargs):
+def dict_factory(cursor, row):
+    d = {}
+    for idx, col in enumerate(cursor.description):
+        d[col[0]] = row[idx]
+    return d
+
+
+def  get_pie(pair, interval, exchange, events=100, *arg, **kwargs):
     '''
     Connect to database (Postgres) and return a list of results according query.
     
     PIE = Pair, Interval, Exchange.
     '''
 
-    try:
-        with psycopg2.connect(host="192.168.1.251", user="postgres", password="secret", port=5432) as conn:
-            with conn.cursor(cursor_factory=psycopg2.extras.DictCursor) as cur:
-                #cur.execute("SELECT * FROM ohlcv WHERE pair LIKE '{pair}' AND interval LIKE '{interval}' AND exchange LIKE '{exchange}'")
-                cur.execute(f"SELECT * FROM ohlcv WHERE pair LIKE '{pair}' AND interval LIKE '{interval}'")
-                return [dict(row) for row in cur.fetchall()]
-    except (Exception, psycopg2.DatabaseError) as error:
-       logging.error(f'Failed to connect to database. Error: {error}.')
+    con = connect("/var/code/ohlcv.sqlite")
+    con.row_factory = dict_factory
+    cur = con.cursor()
+    strSQL = f"SELECT * FROM ohlcv WHERE pair LIKE '{pair}' AND interval LIKE '{interval}' AND exchange LIKE '{exchange}' ORDER BY date DESC LIMIT 100"
+    print(strSQL)
+    cur.execute(strSQL)
+    res = [dict(row) for row in cur.fetchall()]
+    cur.close()
+    con.close()
+    return res
 
 
-def load_df(pair, interval, exchange) -> pd.DataFrame:
-       records = get_pie(pair, interval, exchange)
+def load_df(pair, interval, exchange, events, *args, **kwargs) -> pd.DataFrame:
+       records = get_pie(pair, interval, exchange, events)
        return pd.DataFrame.from_records(records)
 
 
 def check_var_images() -> None:
-    return os.makedirs('/tmp/images')
+    try:
+        return os.makedirs('/tmp/images')
+    except FileExistsError:
+        pass
 
 
 def load_config(exchange):

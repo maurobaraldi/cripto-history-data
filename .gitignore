@@ -1,3 +1,6 @@
 .DS_Store
 */.DS_Store
 *.sqlite
+*.pyc
+*.egg-info
+cripto/

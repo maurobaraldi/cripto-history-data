@@ -15,15 +15,11 @@ check_var_images()
 
 # Shows blank figure in Jupyter notebooks.
 pio.renderers.default = "iframe"
-from celery import Celery
-
-app = Celery('tasks', broker='pyamqp://guest@192.168.1.97//')
 logging.basicConfig(format='%(asctime)s - MACD - %(message)s', datefmt='%d-%b-%y %H:%M:%S')
 
 
-@app.task
-def generate_chart(pair, inetrval, exchange, *args, **kwargs):
-    df = load_df(pair, inetrval, exchange)
+def generate_chart(pair, interval, exchange, events=100, *args, **kwargs):
+    df = load_df(pair, interval, exchange, events)
 
     # Get the 12-day EMA of the closing price
     k = df['close'].ewm(span=12, adjust=False, min_periods=12).mean()
@@ -50,8 +46,8 @@ def generate_chart(pair, inetrval, exchange, *args, **kwargs):
     plt.plot(macd_s,label='Signal Line')
     plt.xticks(rotation=45)
     plt.bar(macd_h.index,macd_h ,label=f'{pair} History')
-    plt.xlabel('{interval} slots')
+    plt.xlabel(f'{interval} slots')
     plt.ylabel('Indicator Value')
     plt.legend(loc='upper right')
     plt.show()
-    plt.savefig('/tmp/images/macd-{pair}-{pair}-{exchange}.png')
+    plt.savefig(f'/tmp/images/macd-{pair}-{pair}-{exchange}.png')
